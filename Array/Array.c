@@ -8,12 +8,11 @@
 
 int main() {
     float A[100];
-    
     for (int contador = 0; contador < 100; contador++) {
         scanf("%f", &A[contador]);  
         
         if (A[contador] <= 10) {
-            printf("A[%i] = %2f\n", contador, A[contador]);
+            printf("A[%i] = %2.f\n", contador, A[contador]);
         }
     }
 
