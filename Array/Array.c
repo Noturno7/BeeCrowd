@@ -12,7 +12,7 @@ int main() {
         scanf("%f", &A[contador]);  
         
         if (A[contador] <= 10) {
-            printf("A[%i] = %2.f\n", contador, A[contador]);
+            printf("A[%i] = %.1f\n", contador, A[contador]);
         }
     }
 
